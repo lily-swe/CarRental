@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking – Car Rental System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body { font-family: Arial; background:#f0f2f5; padding:20px; }
+        .container {
+            max-width:450px; margin:auto; background:white;
+            padding:20px; border-radius:10px; border:1px solid #ccc;
+        }
+        input, select, button {
+            width:100%; padding:12px; margin:10px 0;
+            border-radius:6px; border:1px solid #ccc;
+        }
+        button {
+            background:#333; color:white; border:none;
+            cursor:pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2><i class="fa-solid fa-calendar-check"></i> Book a Car</h2>
+
+        <input type="text" placeholder="Car Model">
+        <input type="date">
+        <input type="date">
+
+        <select>
+            <option>Payment Method</option>
+            <option>Credit Card</option>
+            <option>Cash</option>
+        </select>
+
+        <button><i class="fa-solid fa-circle-check"></i> Confirm Booking</button>
+    </div>
+</body>
+</html>

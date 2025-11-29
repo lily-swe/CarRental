@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Cars – Car Rental System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body { font-family: Arial; background:#f0f2f5; padding:20px; }
+        .container { max-width:500px; margin:auto; background:white; padding:20px; border-radius:10px; }
+        input, select, button {
+            width:100%; padding:12px; margin:10px 0;
+            border-radius:6px; border:1px solid #ccc;
+        }
+        button { background:#333; color:white; cursor:pointer; border:none; }
+        button:hover { background:#555; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2><i class="fa-solid fa-magnifying-glass"></i> Search for a Car</h2>
+
+        <input type="text" placeholder="Search by model">
+        <select>
+            <option>Brand</option>
+            <option>Toyota</option>
+            <option>BMW</option>
+            <option>Honda</option>
+            <option>Porsche</option>
+        </select>
+
+        <select>
+            <option>Color</option>
+            <option>White</option>
+            <option>Black</option>
+            <option>Red</option>
+        </select>
+
+        <select>
+            <option>Price Range</option>
+            <option>$20–$50</option>
+            <option>$50–$100</option>
+            <option>$100–$300</option>
+        </select>
+
+        <button onclick="window.location='cars.html'"><i class="fa-solid fa-search"></i> Search</button>
+    </div>
+</body>
+</html>

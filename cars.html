@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Available Cars – Car Rental System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body { font-family: Arial; padding:20px; background:#f0f2f5; }
+        .car-card {
+            background:white; padding:20px; border-radius:10px;
+            margin:20px auto; max-width:600px; border:1px solid #ccc;
+        }
+        img {
+            width:100%; height:250px; object-fit:cover; border-radius:8px;
+        }
+        button {
+            width:100%; padding:12px; margin-top:10px;
+            background:#1f1f1f; color:white; border:none;
+            border-radius:6px; cursor:pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2><i class="fa-solid fa-car"></i> Available Cars</h2>
+
+    <div class="car-card">
+        <img src="images/car3.png" alt="Camry">
+        <h3>Toyota Camry 2021</h3>
+        <p>White • 50 SAR/day • Available</p>
+        <button onclick="window.location='booking.html'">
+            <i class="fa-solid fa-calendar-check"></i> Book Now
+        </button>
+    </div>
+
+    <div class="car-card">
+        <img src="images/car2.jpg" alt="BMW X5">
+        <h3>BMW X5 2020</h3>
+        <p>White • 150 SAR/day • Available</p>
+        <button onclick="window.location='booking.html'">
+            <i class="fa-solid fa-calendar-check"></i> Book Now
+        </button>
+    </div>
+
+  
+    <div class="car-card">
+        <img src="images/car1.avif" alt="Honda Civic">
+        <h3>Honda Civic 2019</h3>
+        <p>Red • 45 SAR/day • Rented</p>
+        <button disabled style="background:#aaa;">
+            <i class="fa-solid fa-ban"></i> Not Available
+        </button>
+    </div>
+
+
+    <div class="car-card">
+        <img src="images/car4.jpg" alt="Porsche Cayenne">
+        <h3>Porsche Cayenne 2022</h3>
+        <p>Black • 300 SAR/day • Rented</p>
+        <button disabled style="background:#aaa;">
+            <i class="fa-solid fa-ban"></i> Not Available
+        </button>
+    </div>
+
+</body>
+</html>
